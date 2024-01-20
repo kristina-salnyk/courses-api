@@ -9,7 +9,7 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const config = new DocumentBuilder()
-    .setTitle(packageJson.name)
+    .setTitle(packageJson.description)
     .setVersion(packageJson.version)
     .addBearerAuth(
       { type: 'http', scheme: 'bearer', bearerFormat: 'JWT', in: 'headers' },
