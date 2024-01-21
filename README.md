@@ -1,4 +1,4 @@
-# Courses API
+# Courses API 
 
 This project was created for educational purposes and is used as a back-end for educational applications.
 
